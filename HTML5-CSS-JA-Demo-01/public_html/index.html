@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+This is a simple calculator application made with HTML5 and Java Script.
+Please note that the MVC design pattern was not really fully followed.
+This demo is made purely for the sake of showing how to work with HTML5,
+CSS, and JavaScript.
+-->
+<html>
+    <head>
+        <!-- Include the css -->
+        <link href="main.css" rel="stylesheet" type="text/css"/>
+        <link href="main_seniors.css" rel="stylesheet" type="text/css"/>
+        <!-- Include the state-machine library (third party) -->
+        <script src="state-machine.js" type="text/javascript"></script>
+        <!-- Include main calculator JavaScript -->
+        <script src="main.js" type="text/javascript"></script>
+        <title>Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <table id="calculator">
+            <tr>
+                <td id="calcScreenCell" colspan="5"><input id="calcScreen" type="text" name="your_name" value="0" disabled="disabled"></td>
+            </tr>
+            <tr>
+                <td colspan="3"><input class="opButton" type="button" onClick="comMachine.mr()" value="MR"></td>
+                <td><input class="opButton" type="button" onClick="comMachine.mp()" value="M+"></td>
+                <td><input class="opButton" type="button" onClick="comMachine.mm()" value="M-"></td>
+            </tr>
+            <tr>
+                <td><input class="numButton" type="button" onClick="comMachine.number(1)" value="1"></td>
+                <td><input class="numButton" type="button" onClick="comMachine.number(2)" value="2"></td>
+                <td><input class="numButton" type="button" onClick="comMachine.number(3)" value="3"></td>
+                <td><input class="opButton" type="button" onClick="comMachine.plus()" value="+"></td>
+                <td><input class="opButton" type="button" onClick="comMachine.divide()" value="/"></td>
+            </tr>
+            <tr>
+                <td><input class="numButton" type="button" onClick="comMachine.number(4)" value="4"></td>
+                <td><input class="numButton" type="button" onClick="comMachine.number(5)" value="5"></td>
+                <td><input class="numButton" type="button" onClick="comMachine.number(6)" value="6"></td>
+                <td><input class="opButton" onClick="comMachine.minus()" type="button" value="-"></td>
+                <td><input class="opButton" onClick="comMachine.procent()" type="button" value="%"></td>
+            </tr>
+            <tr>
+                <td><input class="numButton" type="button" onClick="comMachine.number(7)" value="7"></td>
+                <td><input class="numButton" type="button" onClick="comMachine.number(8)" value="8"></td>
+                <td><input class="numButton" type="button" onClick="comMachine.number(9)" value="9"></td>
+                <td><input class="opButton" onClick="comMachine.multiply()" type="button" value="*"></td>
+                <td><input class="opButton" onClick="comMachine.sqrt()" type="button" value="&radic;"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input class="numButton" type="button" onClick="comMachine.number(0)" value="0"></td>
+                <td><input class="opButton" type="button" onClick="comMachine.dot()" value="."></td>
+                <td colspan="1"><input class="opButton" type="button" onClick="comMachine.result()" value="="></td>
+                <td><input class="opButton clrButton" type="button" onClick="comMachine.clr()" value="Clr"></td>
+            </tr>
+        </table>
+    </body>
+</html>

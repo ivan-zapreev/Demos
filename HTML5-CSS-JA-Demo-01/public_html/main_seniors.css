@@ -1,0 +1,17 @@
+/* 
+* This is an extra css used to make the calculator larger.
+*    Created on : Feb 4, 2015, 4:36:19 PM
+*    Author     : Tijron
+*/
+
+#calcScreen {
+    font-size: 200%;
+}
+
+.opButton {
+    font-size: 200%;
+}
+
+.numButton {
+    font-size: 200%;
+}

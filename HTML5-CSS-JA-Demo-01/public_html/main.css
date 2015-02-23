@@ -1,0 +1,37 @@
+/* 
+* This is a header file for the calaculator application.
+*    Created on : Feb 4, 2015, 4:36:19 PM
+*    Author     : Ivan S. Zapreev
+*/
+
+/*The calculator table css*/
+#calculator {
+    background: slategrey;
+    border: 1px
+}
+
+/*The style for the calculator screen, it
+is a disabled element to prevent from writing*/
+#calcScreenCell :disabled {
+    	background: #dddddd;
+        width:auto;
+        text-align: right;
+}
+
+/*The "operation" button style*/
+.opButton {
+    color: blue;
+    width:100%;
+}
+
+/*The "number" button style*/
+.numButton {
+    color: red;
+    font-weight: bold;
+    width:100%;
+}
+
+/*The "clear" button style*/
+.clrButton {
+    color: black;
+}

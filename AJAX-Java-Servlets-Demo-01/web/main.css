@@ -1,0 +1,136 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 6, 2015, 3:40:00 PM
+    Author     : Tijron
+*/
+
+.header_table{
+    width: 100%;
+}
+
+.header_title_cell {
+    width: 90%;
+     text-align: center;
+}
+
+.header_link_cell {
+     width: 10%;
+     text-align: right;
+     white-space: nowrap;
+}
+
+.view-left-bar{
+    width: 20%;
+    float: left;
+}
+
+.view-left-bar-elem {
+    width: 100%;
+    display: block;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.veiw-left-bar-info-title {
+    font-size:medium;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.veiw-left-bar-link {
+    margin-left: 2%;
+    font-size: small;
+    white-space: nowrap;
+    display: block;
+}
+
+.view-central-bar {
+    float: right;
+    width: 70%;
+}
+
+.message {
+    width: 50%;
+    display: block;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+}
+
+.message-title {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.message-body {
+    padding-bottom: 10px;
+    font-size: medium;
+}
+
+.message-time {
+    padding-bottom: 10px;
+    font-style: italic;
+    font-size: small;
+}
+
+.message-comment-link {
+    float: right;
+}
+
+.view-message-comments-bar {
+    float: right;
+    width: 70%;
+}
+
+.message-comment {
+    width: 50%;
+    font-size: medium;
+    margin-left: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+}
+
+.message-comment-date {
+    display: inline;
+    font-size: smaller;
+    margin-right: 5px;
+    font-style: italic;
+}
+
+#add-comment {
+    margin-top: 30px;
+    width: 50%;
+}
+
+#add-comment-input-text {
+    width: 100%;
+    margin-bottom: 5px;
+    display: block;
+}
+
+#add-comment-button-div {
+    float: right;
+}
+
+.error_msg {
+    font-weight:bold;
+    font-size: large;
+    color: red;
+    display: block;
+}
